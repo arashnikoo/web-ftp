@@ -1,0 +1,16 @@
+{{{
+webtpclient [url] [-U:username] [-P:password] [-F:file(s)] [-D:folder] [-s]
+
+        [url]   Webftp server path url
+         -U             Username
+         -P             Password
+         -F             Source file name, or pattern (ex: filename.txt, *.txt)
+         -D             Specify destination sub-folder name (Optional)
+         -S             Suppresses output (Optional)
+         
+        Usage Example:  
+
+        WebFtpClient http://127.0.0.1 -u:myuser -p:mypass -f:abc.csv
+        WebFtpClient http://127.0.0.1 -u:myuser -p:mypass -f:myfile.csv -s
+        WebFtpClient http://127.0.0.1 -u:myuser -u:mypass -f:*.txt -d:mySubFolder -S
+}}}

@@ -23,7 +23,6 @@ Note: You can use upper-case or lower-case switches. They function identically.
 
 Backend Implementation
 --
-Basics
 
 Webftp client uses a multipart HTTP POST request to the server with the following variables in the post:
 
@@ -36,9 +35,11 @@ The server should implement a RESTful API which accepts the following variable i
         subfolder       The destination subfolder (Optional)
         
 Endpoint URL
---
+
 An example of an URL endpoint is as followed:
 
 https://127.0.0.1/Upload?username=test&password=123&subfolder=abc
-RESPONSE DATA
+
+Reesponse Data
+
 Currently, response data from server is not being processed and is only being output to the console. However, it is possible to parse the response data easily if retuned in JSON format.

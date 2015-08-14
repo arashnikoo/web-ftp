@@ -22,9 +22,9 @@ webtpclient [url] [-U:username] [-P:password] [-F:file(s)] [-D:folder] [-s]
 Note: You can use upper-case or lower-case switches. They function identically.
 
 Backend Implementation
-
-Basics
 --
+Basics
+
 Webftp client uses a multipart HTTP POST request to the server with the following variables in the post:
 
         POST-FILE:      <base64 encoded data>

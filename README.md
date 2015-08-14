@@ -3,7 +3,7 @@ Introduction
 WebFTP client can be used to upload files over HTTP to a web service. This application is intended to replace the default Windows FTP client. This application increases the performance of the uploads by taking advantages of the scalability and performance of HTTP protocol.
 
 HOW TO USE
-
+--
 webtpclient [url] [-U:username] [-P:password] [-F:file(s)] [-D:folder] [-s]
 
         [url]   Webftp server path url
@@ -23,9 +23,9 @@ Note: You can use upper-case or lower-case switches. They function identically.
 
 --
 Backend Implementation
-
+--
 BASICS
-
+-
 Webftp client uses a multipart HTTP POST request to the server with the following variables in the post:
 
         POST-FILE:      <base64 encoded data>

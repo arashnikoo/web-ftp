@@ -18,8 +18,10 @@ webtpclient [url] [-U:username] [-P:password] [-F:file(s)] [-D:folder] [-s]
         WebFtpClient http://127.0.0.1 -u:myuser -p:mypass -f:abc.csv
         WebFtpClient http://127.0.0.1 -u:myuser -p:mypass -f:myfile.csv -s
         WebFtpClient http://127.0.0.1 -u:myuser -u:mypass -f:*.txt -d:mySubFolder -S
+        
 Note: You can use upper-case or lower-case switches. They function identically.
-----
+
+--
 Backend Implementation
 
 BASICS

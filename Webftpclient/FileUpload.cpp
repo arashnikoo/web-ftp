@@ -61,6 +61,7 @@ MemoryStruct FileUpload::Upload(const char* url, const char* filePath)
 
 	return chunk;
 }
+
 void* FileUpload::newrealloc(void *ptr, size_t size) {
     if(ptr)
         return realloc(ptr, size);

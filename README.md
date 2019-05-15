@@ -1,6 +1,6 @@
 Introduction
 -
-WebFTP client can be used to upload files over HTTP to a web service. This application is intended to replace the default Windows FTP client. This application increases the performance of the uploads by taking advantages of the scalability and performance of HTTP protocol.
+WebFTP client can be used to upload files over HTTP to a web service. This application is intended to replace the default Windows FTP client to increases the performance of the uploads by taking advantages of the scalability and performance of HTTP protocol.
 
 How to use
 --
